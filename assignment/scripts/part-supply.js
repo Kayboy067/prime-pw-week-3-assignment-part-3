@@ -32,13 +32,13 @@ console.log('5. Adding 25 to supplyChanges.', supplyChanges);
 
 for (let x = 0; x < supplyChanges.length; x++) {
   if (supplyChanges[x] > 0) {
-  console.log('Add', supplyChanges[x], 'parts');
+  console.log('Added', supplyChanges[x], 'parts');
   }
   if (supplyChanges[x] === 0) {
   console.log('No Change', supplyChanges[x]);
   }
   if (supplyChanges[x] < 0) {
-  console.log('Remove', supplyChanges[x], 'parts');
+  console.log('Removed', supplyChanges[x], 'parts');
   }
 }
 
@@ -48,13 +48,13 @@ console.log('---  Stretch Goals  ---');
 console.log('7. Showing supplyChanges with "for of" loop');
 for (supplyChanges of supplyChanges) {
   if (supplyChanges > 0) {
-  console.log('Add', supplyChanges, 'parts');
+  console.log('Added', supplyChanges, 'parts');
   }
   if (supplyChanges === 0) {
   console.log('No Change', supplyChanges);
   }
   if (supplyChanges < 0) {
-  console.log('Remove', supplyChanges, 'parts');
+  console.log('Removed', supplyChanges, 'parts');
   }
 }
 
@@ -66,13 +66,13 @@ let length = supplyChanges.length;
 
 while (x < length) {
   if (supplyChanges[x] > 0) {
-  console.log('Add', supplyChanges[x], 'parts');
+  console.log('Added', supplyChanges[x], 'parts');
   }
   if (supplyChanges[x] === 0) {
   console.log('No Change', supplyChanges[x]);
   }
   if (supplyChanges[x] < 0) {
-  console.log('Remove', supplyChanges[x], 'parts');
+  console.log('Removed', supplyChanges[x], 'parts');
   }
   x++;
 }
